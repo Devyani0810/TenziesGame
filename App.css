@@ -1,0 +1,56 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #0b2434;
+  margin: 0;
+  color:rgb(249, 248, 248)
+}
+
+main {
+  background: rgb(2, 91, 109);
+  padding: 2rem;
+  max-width: 400px;
+  margin: 5rem auto;
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.dice-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.die {
+  padding: 1.2rem;
+  font-size: 1.5rem;
+  background: #6b0256;
+  border-radius: 10px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.die.held {
+  background-color: #6f7902;
+}
+
+.roll-button {
+  padding: 1rem 2rem;
+  background-color: #0b0245;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.confetti {
+  font-size: 3rem;
+  position: center;
+}
